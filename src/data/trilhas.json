@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "nome": "Trilha da Montanha",
+      "cidade": "Monte Verde",
+      "estado": "MG",
+      "duração": 120,
+      "trajeto": 5,
+      "dificuldade": "Moderada",
+      "tipo": "Montanhismo",
+      "criador": "João Silva",
+      "imagem": "https://example.com/trilha1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Trilha da Praia",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "duração": 90,
+      "trajeto": 3,
+      "dificuldade": "Fácil",
+      "tipo": "Beira-mar",
+      "criador": "Maria Souza",
+      "imagem": "https://example.com/trilha2.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Trilha da Cachoeira",
+      "cidade": "Bonito",
+      "estado": "MS",
+      "duração": 150,
+      "trajeto": 7,
+      "dificuldade": "Difícil",
+      "tipo": "Cachoeiras",
+      "criador": "Pedro Santos",
+      "imagem": "https://example.com/trilha3.jpg"
+    }
+  ]
+  

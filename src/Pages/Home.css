@@ -1,0 +1,60 @@
+/* Estilo do rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:  hsl(48, 67%, 47%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; /* Centraliza o texto */
+    z-index: 1000; /* Garante que o rodapé fique acima de outros elementos */
+  }
+  /* Estilo da barra horizontal */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(48, 67%, 47%);
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000; /* Garante que a barra fique acima de outros elementos */
+  }
+  
+  /* Estilo dos links na barra horizontal */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+.navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+/* Home.css */
+.container {
+  background-image: url('https://images.pexels.com/photos/19652246/pexels-photo-19652246/free-photo-of-montanhas-caminhada-trilha-viagem.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px; /* Adiciona um espaçamento interno */
+  background-color: rgba(255, 255, 255, 0.5); /* Cor branca com 50% de transparência */
+  border-radius: 10px;
+} /* Alinha o texto no centro horizontalmente */

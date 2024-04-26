@@ -1,0 +1,38 @@
+/* No arquivo CadastroTrilha.css */
+
+.cadastro-trilha-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .cadastro-trilha-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cadastro-trilha-form label {
+    margin-bottom: 5px;
+  }
+  
+  .cadastro-trilha-form input,
+  .cadastro-trilha-form select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cadastro-trilha-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cadastro-trilha-form button:hover {
+    background-color: #555;
+  }
+  

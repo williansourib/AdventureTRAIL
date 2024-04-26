@@ -1,0 +1,31 @@
+/* Estilo do card de trilha */
+/* Estilo do card de trilha */
+.trilha-card {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.1);
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.trilha-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-right: 1em; /* Adicione um espaçamento à direita para separar as imagens */
+}
+
+  .titulo-card {
+    text-align: center; /* Centraliza o título */
+  }
+  
+  .trilha-card p {
+    margin: 0; /* Remove o espaçamento padrão dos parágrafos */
+  }
+  
+  .trilha-card .infos {
+    flex: 1; /* Ocupa todo o espaço disponível */
+  }
+  
