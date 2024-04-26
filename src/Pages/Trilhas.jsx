@@ -1,24 +1,26 @@
-// Trilhas.jsx
+// Trilhas.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useTrilhas } from '../context/TrilhasContext';
 import TrilhaCard from './TrilhaCard';
+import CadastroTrilha from './CadastroTrilhas';
 import './Home.css'; // Arquivo de estilos CSS
 
 function Trilhas() {
-  // Suponha que você tenha uma lista de trilhas disponível no estado ou em algum contexto
-  const trilhas = [
-    { id: 1, nome: 'Trilha Lagoinha do leste',criador:'Willian Ribeiro',tipo:'trekking',trajeto:'2km',duração: '60min', cidade: 'florianopolis',estado:'Santa Catarina', dificuldade: 'Média', imagem: 'https://images.pexels.com/photos/19234571/pexels-photo-19234571/free-photo-of-por-do-sol-homem-deserto-caminhada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 2, nome: 'Trilha Praia Dos Naufragados',criador:'Willian Ribeiro',tipo:'trekking',trajeto:'2km',duração: '60min',cidade: 'florianopolis',estado:'Santa Catarina', dificuldade: 'Média', imagem: 'https://images.pexels.com/photos/19753828/pexels-photo-19753828/free-photo-of-frio-com-frio-neve-panorama.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 3, nome: 'Trilha Praia Das Aranhas',criador:'Willian Ribeiro',tipo:'trekking',trajeto:'2km',duração: '60min',cidade: 'florianopolis',estado:'Santa Catarina', dificuldade: 'Média', imagem: 'https://images.pexels.com/photos/7084186/pexels-photo-7084186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    // Adicione mais trilhas conforme necessário
-  ];
+  const { trilhas } = useTrilhas();
 
   return (
-    <div>
+    <div className="background-image"> {/* Aplica a classe da imagem de fundo */}
       {/* Cabeçalho */}
-      <header>
+      <header className="navbar">
         <h1>Trilhas</h1>
-        
+        <nav>
+          {/* Links de navegação */}
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/trilhas">Trilhas</a></li>
+            <li><a href="/cadastro-trilhas">Cadastro de Trilhas</a></li>
+          </ul>
+        </nav>
       </header>
 
       {/* Seção de listagem de trilhas */}
@@ -26,8 +28,11 @@ function Trilhas() {
         <h2>Lista de Trilhas</h2>
         {/* Renderização da lista de trilhas */}
         {trilhas.map(trilha => (
-          <TrilhaCard key={trilha.id} trilha={trilha} />
+          <TrilhaCard key={trilha.nome} trilha={trilha} />
         ))}
+
+        {/* Formulário de cadastro de trilhas */}
+        <CadastroTrilha />
       </section>
 
       {/* Rodapé */}

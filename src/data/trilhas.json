@@ -1,39 +1,38 @@
 [
-    {
-      "id": 1,
-      "nome": "Trilha da Montanha",
-      "cidade": "Monte Verde",
-      "estado": "MG",
-      "duração": 120,
-      "trajeto": 5,
-      "dificuldade": "Moderada",
-      "tipo": "Montanhismo",
-      "criador": "João Silva",
-      "imagem": "https://example.com/trilha1.jpg"
-    },
-    {
-      "id": 2,
-      "nome": "Trilha da Praia",
-      "cidade": "Florianópolis",
-      "estado": "SC",
-      "duração": 90,
-      "trajeto": 3,
-      "dificuldade": "Fácil",
-      "tipo": "Beira-mar",
-      "criador": "Maria Souza",
-      "imagem": "https://example.com/trilha2.jpg"
-    },
-    {
-      "id": 3,
-      "nome": "Trilha da Cachoeira",
-      "cidade": "Bonito",
-      "estado": "MS",
-      "duração": 150,
-      "trajeto": 7,
-      "dificuldade": "Difícil",
-      "tipo": "Cachoeiras",
-      "criador": "Pedro Santos",
-      "imagem": "https://example.com/trilha3.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nome": "Trilha Lagoinha do leste",
+    "criador": "Willian Ribeiro",
+    "tipo": "trekking",
+    "trajeto": "2km",
+    "duração": "60min",
+    "cidade": "florianopolis",
+    "estado": "Santa Catarina",
+    "dificuldade": "Média",
+    "imagem": "https://images.pexels.com/photos/19234571/pexels-photo-19234571/free-photo-of-por-do-sol-homem-deserto-caminhada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 2,
+    "nome": "Trilha Praia Dos Naufragados",
+    "criador": "Willian Ribeiro",
+    "tipo": "trekking",
+    "trajeto": "2km",
+    "duração": "60min",
+    "cidade": "florianopolis",
+    "estado": "Santa Catarina",
+    "dificuldade": "Média",
+    "imagem": "https://images.pexels.com/photos/19753828/pexels-photo-19753828/free-photo-of-frio-com-frio-neve-panorama.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 3,
+    "nome": "Trilha Praia Das Aranhas",
+    "criador": "Willian Ribeiro",
+    "tipo": "trekking",
+    "trajeto": "2km",
+    "duração": "60min",
+    "cidade": "florianopolis",
+    "estado": "Santa Catarina",
+    "dificuldade": "Média",
+    "imagem": "https://images.pexels.com/photos/7084186/pexels-photo-7084186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
